@@ -24,15 +24,15 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-32 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
           <div className="mb-6">
-            <span className="inline-block px-6 py-3 bg-gradient-accent text-white rounded-full text-sm font-bold animate-scale-in backdrop-blur-sm border border-primary/30 shadow-glow">
+            <span className="inline-block px-6 py-3 bg-gradient-accent text-white rounded-full text-sm font-bold backdrop-blur-sm border border-primary/30">
               ✨ Your Safety. Our Precision. ✨
             </span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground leading-tight animate-fade-in">
+          <h1 className="text-5xl md:text-7xl font-bold mb-6 text-foreground leading-tight">
             UNICARE MEDICAL
-            <span className="block text-primary mt-2 bg-gradient-accent bg-clip-text text-transparent animate-glow-pulse">
-              SOLUTIONS
+            <span className="block text-primary mt-2">
+              SOLUTION
             </span>
           </h1>
           
@@ -49,7 +49,7 @@ const Hero = () => {
                   "_blank"
                 )
               }
-              className="bg-gradient-primary text-lg px-10 py-7 shadow-large hover:shadow-glow transition-all duration-300 hover:scale-105 text-primary-foreground font-semibold animate-glow-pulse"
+              className="bg-gradient-primary text-lg px-10 py-7 shadow-large text-primary-foreground font-semibold"
             >
               Get Best Quote Now 🚀
             </Button>
@@ -62,7 +62,7 @@ const Hero = () => {
                   element.scrollIntoView({ behavior: "smooth" });
                 }
               }}
-              className="text-lg px-10 py-7 border-2 border-primary/40 hover:border-primary hover:bg-primary/10 transition-all duration-300 hover:scale-105 shadow-medium"
+              className="text-lg px-10 py-7 border-2 border-primary/40 shadow-medium"
             >
               View Products
             </Button>
@@ -70,23 +70,23 @@ const Hero = () => {
 
           {/* Trust Badges */}
           <div className="grid grid-cols-2 md:grid-cols-4 gap-6 max-w-3xl mx-auto mt-16">
-            <div className="flex flex-col items-center p-6 bg-gradient-to-br from-white to-accent backdrop-blur-sm rounded-xl border-2 border-primary/20 animate-fade-in hover-shine hover:shadow-elegant transition-all duration-300 hover:scale-105" style={{ animationDelay: "0.2s" }}>
-              <Shield className="w-12 h-12 text-primary mb-3 animate-float-smooth" />
+            <div className="flex flex-col items-center p-6 bg-gradient-to-br from-white to-accent backdrop-blur-sm rounded-xl border-2 border-primary/20">
+              <Shield className="w-12 h-12 text-primary mb-3" />
               <p className="text-sm font-bold text-foreground">ISO Certified</p>
               <p className="text-xs text-muted-foreground mt-1">Quality Assured</p>
             </div>
-            <div className="flex flex-col items-center p-6 bg-gradient-to-br from-white to-accent backdrop-blur-sm rounded-xl border-2 border-primary/20 animate-fade-in hover-shine hover:shadow-elegant transition-all duration-300 hover:scale-105" style={{ animationDelay: "0.3s" }}>
-              <Award className="w-12 h-12 text-primary mb-3 animate-float-smooth" style={{ animationDelay: "0.5s" }} />
+            <div className="flex flex-col items-center p-6 bg-gradient-to-br from-white to-accent backdrop-blur-sm rounded-xl border-2 border-primary/20">
+              <Award className="w-12 h-12 text-primary mb-3" />
               <p className="text-sm font-bold text-foreground">10+ Years</p>
               <p className="text-xs text-muted-foreground mt-1">Experience</p>
             </div>
-            <div className="flex flex-col items-center p-6 bg-gradient-to-br from-white to-accent backdrop-blur-sm rounded-xl border-2 border-primary/20 animate-fade-in hover-shine hover:shadow-elegant transition-all duration-300 hover:scale-105" style={{ animationDelay: "0.4s" }}>
-              <Users className="w-12 h-12 text-primary mb-3 animate-float-smooth" style={{ animationDelay: "1s" }} />
+            <div className="flex flex-col items-center p-6 bg-gradient-to-br from-white to-accent backdrop-blur-sm rounded-xl border-2 border-primary/20">
+              <Users className="w-12 h-12 text-primary mb-3" />
               <p className="text-sm font-bold text-foreground">500+ Clients</p>
               <p className="text-xs text-muted-foreground mt-1">Trusted Nationwide</p>
             </div>
-            <div className="flex flex-col items-center p-6 bg-gradient-to-br from-white to-accent backdrop-blur-sm rounded-xl border-2 border-primary/20 animate-fade-in hover-shine hover:shadow-elegant transition-all duration-300 hover:scale-105" style={{ animationDelay: "0.5s" }}>
-              <CheckCircle2 className="w-12 h-12 text-primary mb-3 animate-float-smooth" style={{ animationDelay: "1.5s" }} />
+            <div className="flex flex-col items-center p-6 bg-gradient-to-br from-white to-accent backdrop-blur-sm rounded-xl border-2 border-primary/20">
+              <CheckCircle2 className="w-12 h-12 text-primary mb-3" />
               <p className="text-sm font-bold text-foreground">100% Quality</p>
               <p className="text-xs text-muted-foreground mt-1">Guaranteed</p>
             </div>
