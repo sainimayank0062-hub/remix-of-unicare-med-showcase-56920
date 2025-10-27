@@ -146,7 +146,7 @@ const Products = () => {
                   </div>
                   <Button
                     onClick={() => handleContactClick(product.name)}
-                    className="w-full bg-gradient-accent hover:opacity-90 transition-all duration-300 shadow-medium hover:shadow-large hover:scale-105 font-semibold"
+                    className="w-full font-semibold"
                   >
                     Contact Now
                   </Button>
