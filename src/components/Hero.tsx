@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="container mx-auto px-4 py-32 relative z-10">
         <div className="max-w-4xl mx-auto text-center animate-fade-in-up">
           <div className="mb-6">
-            <span className="inline-block px-6 py-3 bg-gradient-accent text-white rounded-full text-sm font-bold backdrop-blur-sm border border-primary/30">
+            <span className="inline-block px-6 py-3 bg-gradient-accent text-foreground rounded-full text-sm font-bold backdrop-blur-sm border border-primary/30">
               ✨ Your Safety. Our Precision. ✨
             </span>
           </div>
