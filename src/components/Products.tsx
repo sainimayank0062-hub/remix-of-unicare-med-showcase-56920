@@ -10,6 +10,7 @@ import ppgiOtImage from "@/assets/product-ppgi-ot.jpg";
 import jointlessOtImage from "@/assets/product-jointless-ot.jpg";
 import modularOtImage from "@/assets/product-modular-ot.jpg";
 import semiModularOtImage from "@/assets/product-semi-modular-ot.jpg";
+import manifoldGasImage from "@/assets/product-manifold-gas.jpg";
 
 const products = [
   {
@@ -50,7 +51,7 @@ const products = [
     description:
       "Leak-proof medical gas pipeline system with safety compliance.",
     price: "XX,XXX",
-    image: bedHeadImage,
+    image: manifoldGasImage,
   },
   {
     name: "Bioclad Modular Operation Theater",
