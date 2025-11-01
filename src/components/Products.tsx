@@ -9,6 +9,7 @@ import bedHeadImage from "@/assets/product-bed-head.jpg";
 import ppgiOtImage from "@/assets/product-ppgi-ot.jpg";
 import jointlessOtImage from "@/assets/product-jointless-ot.jpg";
 import modularOtImage from "@/assets/product-modular-ot.jpg";
+import semiModularOtImage from "@/assets/product-semi-modular-ot.jpg";
 
 const products = [
   {
@@ -42,7 +43,7 @@ const products = [
     name: "Semi Modular Operation Theater",
     description: "Smart modular upgrade solution for mid-level hospitals.",
     price: "XX,XXX",
-    image: steelOtImage,
+    image: semiModularOtImage,
   },
   {
     name: "Manifold Gas Room System",
