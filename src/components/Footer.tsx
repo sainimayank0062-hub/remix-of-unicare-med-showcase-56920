@@ -1,4 +1,5 @@
-import { Mail, MapPin, Phone } from "lucide-react";
+import { Mail, MapPin, Phone, FileText, Shield } from "lucide-react";
+import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
 
 const Footer = () => {
@@ -8,18 +9,31 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
           {/* Company Info */}
           <div>
-            <img 
-              src={logo} 
-              alt="Unicare Medical Solutions Logo" 
+            <img
+              src={logo}
+              alt="Unicare Medical Solutions Logo"
               className="h-16 mb-4"
             />
-            <h3 className="text-2xl font-bold mb-4">
+            <h3 className="text-2xl font-bold mb-3">
               Unicare Medical Solutions
             </h3>
-            <p className="text-muted-foreground">
-              Premium Modular Operation Theater & Hospital Infrastructure
-              Manufacturer
+            <p className="text-muted-foreground text-sm mb-3">
+              Leading Modular Operation Theater Manufacturer in Delhi, Ghaziabad & across India
             </p>
+            <div className="space-y-1 text-xs text-muted-foreground">
+              <p className="flex items-center gap-1.5">
+                <Shield className="w-3.5 h-3.5 text-primary" />
+                <span><strong>GST:</strong> 09BSAPS7499N1ZL</span>
+              </p>
+              <p className="flex items-center gap-1.5">
+                <FileText className="w-3.5 h-3.5 text-primary" />
+                <span><strong>UDYAM:</strong> UDYAM-UP-29-0189404</span>
+              </p>
+              <p className="flex items-center gap-1.5">
+                <Shield className="w-3.5 h-3.5 text-primary" />
+                <span><strong>ISO 9001:2015</strong> Certified</span>
+              </p>
+            </div>
           </div>
 
           {/* Contact Info */}
@@ -51,39 +65,71 @@ const Footer = () => {
             </div>
           </div>
 
-          {/* Our Team */}
+          {/* Our Products */}
           <div>
-            <h4 className="text-xl font-semibold mb-4">Our Team</h4>
-            <div className="space-y-2 text-muted-foreground">
-              <p className="font-semibold">Expert Professionals</p>
-              <ul className="text-sm space-y-1">
-                <li>• Design Engineers</li>
-                <li>• Installation Experts</li>
-                <li>• Quality Inspectors</li>
-                <li>• Project Managers</li>
-                <li>• After-sales Support</li>
-              </ul>
+            <h4 className="text-xl font-semibold mb-4">Our Specializations</h4>
+            <div className="space-y-2 text-muted-foreground text-sm">
+              <p>• Modular Operation Theater</p>
+              <p>• Jointless Modular OT</p>
+              <p>• Stainless Steel Modular OT</p>
+              <p>• Medical Gas Pipeline System</p>
+              <p>• Surgical Scrub Sink Station</p>
+              <p>• Modular ICU Setup</p>
+              <p>• Bed Head Panel</p>
+              <p>• Cubical Curtain Track</p>
             </div>
           </div>
 
-          {/* Our Work */}
+          {/* Quick Links */}
           <div>
-            <h4 className="text-xl font-semibold mb-4">Our Projects</h4>
+            <h4 className="text-xl font-semibold mb-4">Quick Links</h4>
             <div className="space-y-2 text-muted-foreground text-sm">
-              <p>• Hospitals across Delhi NCR</p>
-              <p>• Medical facilities in UP</p>
-              <p>• Healthcare centers in Haryana</p>
-              <p>• Multi-specialty hospitals nationwide</p>
-              <p>• Government medical institutions</p>
-              <p>• Private healthcare facilities</p>
+              <button
+                onClick={() => document.getElementById("home")?.scrollIntoView({ behavior: "smooth" })}
+                className="block hover:text-primary transition-colors"
+              >
+                Home
+              </button>
+              <button
+                onClick={() => document.getElementById("products")?.scrollIntoView({ behavior: "smooth" })}
+                className="block hover:text-primary transition-colors"
+              >
+                Products
+              </button>
+              <button
+                onClick={() => document.getElementById("about")?.scrollIntoView({ behavior: "smooth" })}
+                className="block hover:text-primary transition-colors"
+              >
+                About Us
+              </button>
+              <button
+                onClick={() => document.getElementById("contact")?.scrollIntoView({ behavior: "smooth" })}
+                className="block hover:text-primary transition-colors"
+              >
+                Contact
+              </button>
+              <Link to="/privacy-policy" className="block hover:text-primary transition-colors">
+                Privacy Policy
+              </Link>
+              <Link to="/terms-conditions" className="block hover:text-primary transition-colors">
+                Terms & Conditions
+              </Link>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-border pt-8 text-center text-muted-foreground">
-          <p>
+        <div className="border-t border-border pt-8 text-center text-muted-foreground text-sm">
+          <p className="mb-1">
             Copyright © 2025 Unicare Medical Solutions | All Rights Reserved.
           </p>
+          <p className="text-xs">
+            GST: 09BSAPS7499N1ZL | UDYAM: UDYAM-UP-29-0189404 | ISO 9001:2015 Certified
+          </p>
+          <div className="flex justify-center gap-4 mt-3 text-xs">
+            <Link to="/privacy-policy" className="hover:text-primary transition-colors">Privacy Policy</Link>
+            <span>|</span>
+            <Link to="/terms-conditions" className="hover:text-primary transition-colors">Terms & Conditions</Link>
+          </div>
         </div>
       </div>
     </footer>
