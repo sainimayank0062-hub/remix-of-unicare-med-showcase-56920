@@ -8,6 +8,7 @@ import icuImage from "@/assets/product-icu.jpg";
 import bedHeadImage from "@/assets/product-bed-head.jpg";
 import ppgiOtImage from "@/assets/product-ppgi-ot.jpg";
 import jointlessOtImage from "@/assets/product-jointless-ot.jpg";
+import curtainTrackImage from "@/assets/product-curtain-track.webp";
 import modularOtImage from "@/assets/product-modular-ot.jpg";
 import semiModularOtImage from "@/assets/product-semi-modular-ot.jpg";
 import manifoldGasImage from "@/assets/product-manifold-gas.jpg";
