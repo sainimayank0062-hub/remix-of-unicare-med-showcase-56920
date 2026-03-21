@@ -93,7 +93,7 @@ const products = [
     description:
       "Hospital-grade smooth track curtains providing patient privacy.",
     price: "XX,XXX",
-    image: icuImage,
+    image: curtainTrackImage,
   },
 ];
 
