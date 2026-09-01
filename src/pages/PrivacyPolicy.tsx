@@ -42,14 +42,14 @@ const PrivacyPolicy = () => {
 
           <section>
             <h2 className="text-2xl font-semibold text-foreground mb-3">5. Your Rights</h2>
-            <p>You have the right to access, correct, or delete your personal data. To exercise these rights, contact us at unicaremedical2023@gmail.com or call +91 7736077740.</p>
+            <p>You have the right to access, correct, or delete your personal data. To exercise these rights, call us at +91 7736077740.</p>
           </section>
 
           <section>
             <h2 className="text-2xl font-semibold text-foreground mb-3">6. Contact Us</h2>
             <p><strong>Unicare Medical Solutions</strong></p>
             <p>Plot No. B/260, Adarsh Nagar, Ballabhgarh, Faridabad-121004, Haryana, India</p>
-            <p>Email: unicaremedical2023@gmail.com | Phone: +91 7736077740</p>
+            <p>Phone: +91 7736077740</p>
           </section>
         </div>
       </div>

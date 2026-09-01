@@ -52,7 +52,7 @@ const TermsConditions = () => {
             <h2 className="text-2xl font-semibold text-foreground mb-3">8. Contact</h2>
             <p><strong>Unicare Medical Solutions</strong></p>
             <p>Plot No. B/260, Adarsh Nagar, Ballabhgarh, Faridabad-121004, Haryana, India</p>
-            <p>Email: unicaremedical2023@gmail.com | Phone: +91 7736077740</p>
+            <p>Phone: +91 7736077740</p>
           </section>
         </div>
       </div>
