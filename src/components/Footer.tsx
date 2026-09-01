@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, Shield } from "lucide-react";
+import { MapPin, Phone, Shield } from "lucide-react";
 import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
 
@@ -67,10 +67,6 @@ const Footer = () => {
               <a href="tel:+917736077740" className="flex items-center gap-2.5 hover:text-white transition-colors">
                 <Phone className="w-4 h-4 flex-shrink-0" />
                 +91 7736077740
-              </a>
-              <a href="mailto:unicaremedical2023@gmail.com" className="flex items-center gap-2.5 hover:text-white transition-colors">
-                <Mail className="w-4 h-4 flex-shrink-0" />
-                unicaremedical2023@gmail.com
               </a>
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
