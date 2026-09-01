@@ -18,13 +18,13 @@ const trustItems = [
   },
   {
     icon: Building2,
-    title: "GST Registered",
-    subtitle: "09BSAPS7499N1ZL",
+    title: "Pan-India",
+    subtitle: "Service Network",
   },
   {
     icon: FileText,
-    title: "UDYAM Registered",
-    subtitle: "UDYAM-UP-29-0189404",
+    title: "Turnkey",
+    subtitle: "Project Execution",
   },
   {
     icon: CheckCircle2,
