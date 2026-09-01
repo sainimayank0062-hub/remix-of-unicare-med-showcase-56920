@@ -15,7 +15,7 @@ const TermsConditions = () => {
         <div className="prose prose-lg max-w-none text-muted-foreground space-y-6">
           <section>
             <h2 className="text-2xl font-semibold text-foreground mb-3">1. Acceptance of Terms</h2>
-            <p>By accessing and using this website of Unicare Medical Solutions (GST: 09BSAPS7499N1ZL, UDYAM: UDYAM-UP-29-0189404), you agree to be bound by these Terms and Conditions. If you do not agree, please refrain from using the website.</p>
+            <p>By accessing and using this website of Unicare Medical Solutions, you agree to be bound by these Terms and Conditions. If you do not agree, please refrain from using the website.</p>
           </section>
 
           <section>
@@ -51,8 +51,8 @@ const TermsConditions = () => {
           <section>
             <h2 className="text-2xl font-semibold text-foreground mb-3">8. Contact</h2>
             <p><strong>Unicare Medical Solutions</strong></p>
-            <p>357, Malkhan Singh Complex, Opp Ambedkar Bhawan, Dasna Road, Ghaziabad-201001 (U.P) India</p>
-            <p>Email: unicaremedical2023@gmail.com | Phone: +91 7678443838</p>
+            <p>Plot No. B/260, Adarsh Nagar, Ballabhgarh, Faridabad-121004, Haryana, India</p>
+            <p>Email: unicaremedical2023@gmail.com | Phone: +91 7736077740</p>
           </section>
         </div>
       </div>
