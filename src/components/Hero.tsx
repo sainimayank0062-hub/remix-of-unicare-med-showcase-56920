@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-bg.jpg";
-import { Shield, Award, Users, CheckCircle2 } from "lucide-react";
+import { Shield, Award, Users, CheckCircle2, Phone, MessageCircle } from "lucide-react";
 
 const Hero = () => {
   return (
@@ -43,15 +43,24 @@ const Hero = () => {
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-12">
             <Button
               size="lg"
+              onClick={() => (window.location.href = "tel:+917736077740")}
+              className="bg-gradient-primary text-lg px-10 py-7 shadow-large text-primary-foreground font-semibold"
+            >
+              <Phone className="w-5 h-5 mr-2" />
+              Call Now: +91 77360 77740
+            </Button>
+            <Button
+              size="lg"
               onClick={() =>
                 window.open(
                   "https://wa.me/917736077740?text=Hello, I want to get the best quote for Modular OT setup",
                   "_blank"
                 )
               }
-              className="bg-gradient-primary text-lg px-10 py-7 shadow-large text-primary-foreground font-semibold"
+              className="bg-[#25D366] text-lg px-10 py-7 shadow-large text-white font-semibold"
             >
-              Get Best Quote Now 🚀
+              <MessageCircle className="w-5 h-5 mr-2" />
+              WhatsApp Quote
             </Button>
             <Button
               size="lg"

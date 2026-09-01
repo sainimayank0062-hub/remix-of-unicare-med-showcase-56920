@@ -9,10 +9,11 @@ import Reviews from "@/components/Reviews";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 import WhatsAppButton from "@/components/WhatsAppButton";
+import MobileCTABar from "@/components/MobileCTABar";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen pb-16 md:pb-0">
       <Header />
       <Banner />
       <TrustBar />
@@ -23,6 +24,7 @@ const Index = () => {
       <Contact />
       <Footer />
       <WhatsAppButton />
+      <MobileCTABar />
     </div>
   );
 };

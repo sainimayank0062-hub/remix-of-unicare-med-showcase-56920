@@ -11,7 +11,7 @@ const WhatsAppButton = () => {
   return (
     <button
       onClick={handleClick}
-      className="fixed bottom-8 right-8 z-50 bg-[#25D366] text-white rounded-full shadow-large p-4 flex items-center gap-3 group"
+      className="fixed bottom-24 md:bottom-8 right-8 z-50 bg-[#25D366] text-white rounded-full shadow-large p-4 flex items-center gap-3 group"
       aria-label="Chat on WhatsApp"
     >
       <MessageCircle className="w-6 h-6" />
