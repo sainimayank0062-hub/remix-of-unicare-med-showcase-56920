@@ -42,7 +42,7 @@ Phone: ${formData.phone}
 Requirements: ${formData.requirements}`;
 
     const encodedMessage = encodeURIComponent(message);
-    const whatsappUrl = `https://wa.me/917678443838?text=${encodedMessage}`;
+    const whatsappUrl = `https://wa.me/917736077740?text=${encodedMessage}`;
 
     // Open WhatsApp
     window.open(whatsappUrl, "_blank");
