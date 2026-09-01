@@ -1,4 +1,4 @@
-import { Mail, MapPin, Phone, Shield, FileText } from "lucide-react";
+import { Mail, MapPin, Phone, Shield } from "lucide-react";
 import { Link } from "react-router-dom";
 import logo from "@/assets/logo.png";
 
@@ -21,13 +21,7 @@ const Footer = () => {
             </p>
             <div className="flex flex-wrap gap-2">
               <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-white/10 text-xs text-white/80">
-                <Shield className="w-3 h-3" /> ISO 9001:2015
-              </span>
-              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-white/10 text-xs text-white/80">
-                <FileText className="w-3 h-3" /> GST Registered
-              </span>
-              <span className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-md bg-white/10 text-xs text-white/80">
-                <FileText className="w-3 h-3" /> UDYAM Registered
+                <Shield className="w-3 h-3" /> ISO 9001:2015 Certified
               </span>
             </div>
           </div>
@@ -70,18 +64,14 @@ const Footer = () => {
           <div className="lg:col-span-3">
             <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-white/90">Contact Us</h4>
             <div className="space-y-4 text-sm text-white/60">
-              <a href="tel:+917678443838" className="flex items-center gap-2.5 hover:text-white transition-colors">
+              <a href="tel:+917736077740" className="flex items-center gap-2.5 hover:text-white transition-colors">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                +91 7678443838
+                +91 7736077740
               </a>
               <a href="mailto:unicaremedical2023@gmail.com" className="flex items-center gap-2.5 hover:text-white transition-colors">
                 <Mail className="w-4 h-4 flex-shrink-0" />
                 unicaremedical2023@gmail.com
               </a>
-              <div className="flex items-start gap-2.5">
-                <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
-                <span>357, Malkhan Singh Complex, Dasna Road, Ghaziabad-201001, U.P.</span>
-              </div>
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
                 <span>Plot No. B/260, Adarsh Nagar, Ballabhgarh, Faridabad-121004, Haryana</span>
@@ -95,12 +85,7 @@ const Footer = () => {
       <div className="border-t border-white/10">
         <div className="container mx-auto px-4 py-5">
           <div className="flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-white/50">
-            <p>© 2025 Unicare Medical Solutions. All Rights Reserved.</p>
-            <div className="flex items-center gap-1.5 flex-wrap justify-center">
-              <span>GST: 09BSAPS7499N1ZL</span>
-              <span className="hidden md:inline">•</span>
-              <span>UDYAM: UDYAM-UP-29-0189404</span>
-            </div>
+            <p>© 2026 All Rights Reserved.</p>
             <div className="flex gap-4">
               <Link to="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
               <Link to="/terms-conditions" className="hover:text-white transition-colors">Terms & Conditions</Link>
