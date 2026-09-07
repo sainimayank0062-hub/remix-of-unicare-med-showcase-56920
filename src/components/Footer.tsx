@@ -64,9 +64,9 @@ const Footer = () => {
           <div className="lg:col-span-3">
             <h4 className="text-sm font-semibold uppercase tracking-wider mb-4 text-white/90">Contact Us</h4>
             <div className="space-y-4 text-sm text-white/60">
-              <a href="tel:+917736077740" className="flex items-center gap-2.5 hover:text-white transition-colors">
+              <a href="tel:+917678443838" className="flex items-center gap-2.5 hover:text-white transition-colors">
                 <Phone className="w-4 h-4 flex-shrink-0" />
-                +91 7736077740
+                +91 7678443838
               </a>
               <div className="flex items-start gap-2.5">
                 <MapPin className="w-4 h-4 flex-shrink-0 mt-0.5" />
